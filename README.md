@@ -1,4 +1,4 @@
-# Research Agent (LangGraph + Ollama)
+# Research Agent with Local LLM (LangGraph + Ollama)
 
 This repo contains a minimal agentic workflow that takes a research topic from the user, performs a web search using Serper API, retrieves content from different sources (news sites, Wikipedia, PDFs, generic webpages), and compiles a report using a locally hosted LLM via Ollama.
 
