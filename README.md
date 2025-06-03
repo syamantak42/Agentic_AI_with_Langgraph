@@ -11,7 +11,8 @@ This repo contains a minimal agentic workflow that takes a research topic from t
 - Saves to pdf
 
 ## Setup
--Get your free Serper key from https://serper.dev/
--Download and install ollama and get the local language model running (ollama run "modelname"): we use gemma3:4b
--pip install requirements.txt
+
+- Get your free Serper key from https://serper.dev/
+- Download and install ollama and get the local language model running (ollama run "modelname"): we use gemma3:4b
+- pip install requirements.txt
 
