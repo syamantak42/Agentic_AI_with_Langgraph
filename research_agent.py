@@ -49,7 +49,7 @@ def report_node(state: dict) -> dict:
     return {**state, "report": report}
 
 
-# Local Ollama wrapper (same as before)
+# Local Ollama wrapper
 def call_ollama_llm(prompt: str, model="gemma3:4b") -> str:
     res = requests.post(
         "http://localhost:11434/api/generate",
