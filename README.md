@@ -1,6 +1,6 @@
 ## Simple Agents with Local LLM (LangGraph + Ollama)
 
-This repo contains a minimal agentic workflow with local LLM. 
+This repo contains examples of minimal agentic workflow with local LLM. 
 
 - Uses LangGraph and LangChain Core
 - Uses a local LLM through Ollama
@@ -10,6 +10,7 @@ The following agents are implemented:
 ## Agents
 1. research_agent.py - takes a research topic from user, performs a web search using Serper API, retrieves content from different sources and compiles a report using a locally hosted LLM via Ollama ,saves to pdf.
 2. weather_email_agent.py - takes a location from User, gets the weather forecast and writes a friendly message about the weather update
+3. weather_agent_app.py - same as above, but as a streamlit app
 
 ## Setup
 
