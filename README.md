@@ -9,10 +9,12 @@ The following agents are implemented:
 
 ## Agents
 1. research_agent.py - takes a research topic from user, performs a web search using Serper API, retrieves content from different sources and compiles a report using a locally hosted LLM via Ollama ,saves to pdf.
+2. weather_email_agent.py - takes a location from User, gets the weather forecast and writes a friendly message about the weather update
 
 ## Setup
 
-- Get your free Serper key from https://serper.dev/
+- Create an account and get your free Serper key from https://serper.dev/
+- Create an account and get your free Weather API key from https://home.openweathermap.org/api_keys
 - Download and install ollama and get the local language model running (ollama run "modelname"): we use gemma3:4b
 - pip install requirements.txt
 
