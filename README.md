@@ -11,6 +11,7 @@ The following agents are implemented:
 1. research_agent.py - takes a research topic from user, performs a web search using Serper API, retrieves content from different sources and compiles a report using a locally hosted LLM via Ollama ,saves to pdf.
 2. weather_email_agent.py - takes a location from User, gets the weather forecast and writes a friendly message about the weather update
 3. weather_agent_app.py - same as above, but as a streamlit app
+4. article_summarizer_agent.py - For a given topic summarizes 10 recent news headlines and prepares a report in pdf
 
 ## Setup
 
